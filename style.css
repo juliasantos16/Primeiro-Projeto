@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt@-10..0&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  max-width: 100%
+  height: auto
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  line-height: 49px;
+  font-size: 49px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span,
+a {
+  color: #ff9900;
+  line-height: 28px;
+}
+
+p {
+
+  margin-bottom: 72px;
+}
+p,
+#footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 33px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #eceff2;
+}
+
+#balls {
+
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
